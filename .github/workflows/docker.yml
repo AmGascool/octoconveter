@@ -39,7 +39,7 @@ jobs:
         with:
           platforms: linux/amd64
           context: scripts/
-          tags: :latest
+          tags: amgascool/subconverter:latest
           build-args: |
             SHA=${{ steps.vars.outputs.sha_short }}
           outputs: type=image,push=true
