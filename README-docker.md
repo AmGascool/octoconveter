@@ -1,6 +1,6 @@
 # subconverter-docker
 
-This is a minimized image to run https://github.com/tindy2013/subconverter.
+This is a minimized image to run https://github.com/amgascool/subconverter.
 
 For running this docker, simply use the following commands:
 ```bash
@@ -16,7 +16,7 @@ Or run in docker-compose:
 version: '3'
 services:
   subconverter:
-    image: tindy2013/subconverter:latest
+    image: amgascool/subconverter:latest
     container_name: subconverter
     ports:
       - "15051:25500"

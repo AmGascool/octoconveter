@@ -50,6 +50,7 @@ LABEL maintainer="tindy.it@gmail.com"
 
 RUN apk add --no-cache --virtual subconverter-deps pcre2 libcurl yaml-cpp
 
+# modify filefoder
 COPY --from=builder /octoconveter/subconverter /usr/bin/
 COPY --from=builder /octoconveter/base /base/
 
